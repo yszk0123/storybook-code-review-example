@@ -1,0 +1,22 @@
+{
+  "name": "storybook-code-review-example",
+  "version": "0.1.0",
+  "main": "index.js",
+  "repository": "https://github.com/yszk0123/storybook-code-review-example",
+  "author": "Yuji Suzuki <y0suzuki0123@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0"
+  },
+  "devDependencies": {
+    "@storybook/react": "^3.2.17",
+    "@storybook/addon-actions": "^3.2.17",
+    "@storybook/addon-links": "^3.2.17"
+  },
+  "scripts": {
+    "test": "echo test",
+    "storybook": "start-storybook -p 9001",
+    "build-storybook": "build-storybook"
+  }
+}
