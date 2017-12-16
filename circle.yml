@@ -1,0 +1,8 @@
+machine:
+  node:
+    version: 8.9.3
+deployment:
+  development:
+    branch: /feature/
+    commands:
+      - ./scripts/build-storybook-for-code-review.sh
