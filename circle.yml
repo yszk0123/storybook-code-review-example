@@ -3,6 +3,6 @@ machine:
     version: 8.9.3
 deployment:
   development:
-    branch: /feature/
+    branch: /feature\/.*/
     commands:
       - ./scripts/build-storybook-for-code-review.sh
