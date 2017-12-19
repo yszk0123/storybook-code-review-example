@@ -3,6 +3,8 @@ set -eu
 
 # Skip when components are not modified
 if git diff master...HEAD --name-only | grep -q "src/\|stories/" ; then
+  :
+else
   echo "[Storybook] Skip"
   exit 0
 fi
